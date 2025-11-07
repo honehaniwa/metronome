@@ -1,7 +1,7 @@
 # メトロノーム音声生成ツール
 
-[![CI](https://github.com/YOUR_USERNAME/trill/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/trill/actions/workflows/ci.yml)
-[![Build](https://github.com/YOUR_USERNAME/trill/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/trill/actions/workflows/build.yml)
+[![CI](https://github.com/honehaniwa/trill/actions/workflows/ci.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/ci.yml)
+[![Build](https://github.com/honehaniwa/trill/actions/workflows/build.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/build.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

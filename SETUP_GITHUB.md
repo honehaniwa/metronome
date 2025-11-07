@@ -36,7 +36,7 @@ git add .
 git commit -m "Initial commit: Metronome application with CI/CD"
 
 # リモートリポジトリを追加（YOUR_USERNAMEを実際のユーザー名に置き換え）
-git remote add origin git@github.com:YOUR_USERNAME/trill.git
+git remote add origin git@github.com:YOUR_USERNAME/metronome.git
 
 # または HTTPS の場合
 # git remote add origin https://github.com/YOUR_USERNAME/trill.git
@@ -53,8 +53,8 @@ git push -u origin main
 `README.md`の3-6行目にあるバッジURLの`YOUR_USERNAME`を実際のGitHubユーザー名に置き換えてください：
 
 ```markdown
-[![CI](https://github.com/YOUR_USERNAME/trill/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/trill/actions/workflows/ci.yml)
-[![Build](https://github.com/YOUR_USERNAME/trill/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/trill/actions/workflows/build.yml)
+[![CI](https://github.com/honehaniwa/trill/actions/workflows/ci.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/ci.yml)
+[![Build](https://github.com/honehaniwa/trill/actions/workflows/build.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/build.yml)
 ```
 
 更新後、コミットしてプッシュ：
