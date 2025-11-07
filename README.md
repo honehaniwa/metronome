@@ -1,7 +1,7 @@
 # メトロノーム音声生成ツール
 
-[![CI](https://github.com/honehaniwa/trill/actions/workflows/ci.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/ci.yml)
-[![Build](https://github.com/honehaniwa/trill/actions/workflows/build.yml/badge.svg)](https://github.com/honehaniwa/trill/actions/workflows/build.yml)
+[![CI](https://github.com/honehaniwa/metronome/actions/workflows/ci.yml/badge.svg)](https://github.com/honehaniwa/metronome/actions/workflows/ci.yml)
+[![Build](https://github.com/honehaniwa/metronome/actions/workflows/build.yml/badge.svg)](https://github.com/honehaniwa/metronome/actions/workflows/build.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -54,7 +54,7 @@ sudo apt-get install ffmpeg
 1. リポジトリをクローン：
 ```bash
 git clone <repository-url>
-cd trill
+cd metronome
 ```
 
 2. 依存パッケージをインストール：
@@ -151,7 +151,7 @@ uv run python -m src.metronome.cli -b 200 --duration 60 --pattern 4to8 -o speed_
 ## プロジェクト構成
 
 ```
-trill/
+metronome/
 ├── src/
 │   └── metronome/
 │       ├── __init__.py       # パッケージ初期化
