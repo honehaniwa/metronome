@@ -2,11 +2,12 @@
 
 import numpy as np
 import pytest
+
 from src.metronome.core import (
+    _generate_4beat_pattern,
+    _generate_4to8_pattern,
     generate_click_sound,
     generate_metronome,
-    _generate_4beat_pattern,
-    _generate_4to8_pattern
 )
 
 

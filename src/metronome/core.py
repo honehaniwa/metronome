@@ -95,7 +95,7 @@ def _generate_4beat_pattern(bpm, duration_seconds, sample_rate):
 
             # 範囲チェック
             if position + click_samples <= total_samples:
-                metronome_wave[position:position + click_samples] += current_click
+                metronome_wave[position : position + click_samples] += current_click
 
             current_time += beat_interval
 
@@ -158,7 +158,7 @@ def _generate_4to8_pattern(bpm, duration_seconds, sample_rate):
                 current_click = click_normal
 
             if position + click_samples <= total_samples:
-                metronome_wave[position:position + click_samples] += current_click
+                metronome_wave[position : position + click_samples] += current_click
 
             current_time += beat_interval
 
@@ -171,7 +171,7 @@ def _generate_4to8_pattern(bpm, duration_seconds, sample_rate):
             current_click = click_normal
 
             if position + click_samples <= total_samples:
-                metronome_wave[position:position + click_samples] += current_click
+                metronome_wave[position : position + click_samples] += current_click
 
             current_time += half_interval
 
@@ -186,7 +186,7 @@ def _generate_4to8_pattern(bpm, duration_seconds, sample_rate):
                 current_click = click_normal
 
             if position + click_samples <= total_samples:
-                metronome_wave[position:position + click_samples] += current_click
+                metronome_wave[position : position + click_samples] += current_click
 
             current_time += beat_interval
 
@@ -198,7 +198,7 @@ def _generate_4to8_pattern(bpm, duration_seconds, sample_rate):
             current_click = click_normal
 
             if position + click_samples <= total_samples:
-                metronome_wave[position:position + click_samples] += current_click
+                metronome_wave[position : position + click_samples] += current_click
 
             current_time += half_interval
 

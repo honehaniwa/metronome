@@ -1,8 +1,9 @@
 """ファイル入出力処理"""
 
 import os
-from scipy.io import wavfile
+
 from pydub import AudioSegment
+from scipy.io import wavfile
 
 
 def save_as_wav(wave_data, sample_rate, output_filename):
@@ -14,8 +15,8 @@ def save_as_wav(wave_data, sample_rate, output_filename):
         sample_rate: サンプリングレート
         output_filename: 出力ファイル名
     """
-    if not output_filename.endswith('.wav'):
-        output_filename += '.wav'
+    if not output_filename.endswith(".wav"):
+        output_filename += ".wav"
 
     wavfile.write(output_filename, sample_rate, wave_data)
     return output_filename
@@ -47,8 +48,8 @@ def save_as_mp3(wave_data, sample_rate, output_filename=None, bpm=None):
             output_filename = f"metronome_bpm{bpm}_1min.mp3"
         else:
             output_filename = "metronome_1min.mp3"
-    elif not output_filename.endswith('.mp3'):
-        output_filename += '.mp3'
+    elif not output_filename.endswith(".mp3"):
+        output_filename += ".mp3"
 
     # MP3として保存
     audio.export(output_filename, format="mp3", bitrate="192k")
