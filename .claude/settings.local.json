@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version:*)",
+      "Bash(uv init:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv python pin:*)",
+      "Bash(uv run python:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(tree:*)",
+      "Bash(awk:*)",
+      "Bash(chmod:*)",
+      "Bash(./build.sh:*)",
+      "Bash(open:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
