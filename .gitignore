@@ -12,7 +12,7 @@ venv/
 env/
 
 # PyInstaller files
-*.spec
+# *.spec (keep metronome.spec for builds)
 
 # Generated audio files
 mp3/
